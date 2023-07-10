@@ -25,7 +25,7 @@ jobs:
         run: pip install -r requirements.txt  # If you have any dependencies, add them to requirements.txt
 
       - name: Execute Python script
-        run: python userrating.py  # Replace with the actual filename of your script
+        run: python userratings.py  # Replace with the actual filename of your script
         
       - name: commit and push
         run: |
